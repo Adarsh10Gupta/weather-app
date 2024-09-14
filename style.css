@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+}
+.card{
+    background-color: rgba(238, 221, 221, 0.855);
+    width: 500px;
+    border-radius: 30px;
+    padding: 20px;
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.search-bar{
+    font-size: 24px;
+    border-radius: 40px;
+    border: none;
+    padding: 5px 15px;
+    background-color: rgb(47, 47, 47);
+    color: white;
+}
+.material-symbols-outlined{
+    position: absolute;
+    color: white;
+    margin-right: -10em;
+}
+.result{
+    padding: 0px 20px;
+}
+.weather_icon{
+    width: 10%;
+}
