@@ -1,11 +1,23 @@
 body{
     background-color: black;
+    height: 100vh;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    background-size: cover;
 }
+/*Time box*/
+.time{
+    background-color: rgba(238, 221, 221, 0.605);
+    width: fit-content;
+    border-radius: 30px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+
+/*Main Box*/
 .card{
     background-color: rgba(238, 221, 221, 0.855);
     width: 500px;
