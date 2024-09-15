@@ -14,9 +14,22 @@ body{
     position: absolute;
     top: 20px;
     right: 20px;
-    padding: 20px;
+    padding: 15px 20px;
 }
+#user{
 
+}
+#get-location{
+    padding: 2px;
+    border-radius: 5px;
+    font-size: large;
+    transition: 1s ease;
+    margin-left: 50px;
+}
+#get-location:hover{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.81);
+}
 
 /*Main Box*/
 .card{
