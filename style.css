@@ -87,7 +87,10 @@ body{
         padding: 8px;
     }
     .time{
+        position: relative;
         margin: 0px 20px;
+        top: 0px;
+        margin-bottom: 20px;
     }
 
     .material-symbols-outlined {
@@ -109,6 +112,7 @@ body{
         margin-top: 30px;
         padding: 20px;
         width: 100%;
+        display: block;
     }
     .search-bar{
         font-size: 10px;
